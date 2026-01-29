@@ -1,0 +1,9 @@
+name: Test Workflow
+on: [push] # This triggers every time you push code
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "GitHub Actions is working for my Chase Project!"
